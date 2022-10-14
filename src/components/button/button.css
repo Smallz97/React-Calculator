@@ -1,0 +1,37 @@
+button {
+    border: none;
+    /* background-color: rgba(141, 114, 7, 0.266); */
+    background-color: rgb(115, 115, 207);
+    font-size: 24px;
+    /* color: rgb(255, 255, 255); */
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: white;
+}
+  
+button:hover {
+    /* background-color: rgb(61, 43, 184); */
+    background-color: blue;
+}
+  
+.equals {
+    grid-column: 3 / 5;
+    /* background-color: rgb(243, 61, 29); */
+    background-color: green;
+}
+  
+.equals:hover {
+    /* background-color: rgb(228, 39, 15); */
+    background-color: green;
+}
+
+.clear {
+    background-color: rgb(243, 61, 29);
+}
+
+.yellow {
+    background-color: greenyellow;
+}
